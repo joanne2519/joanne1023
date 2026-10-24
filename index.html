@@ -10,14 +10,94 @@ header{position:fixed;inset:0 auto 0 0;width:224px;background:#171817;color:#f7f
 @media(max-width:900px){header{position:relative;width:auto;padding:18px 24px;flex-direction:row;align-items:center;justify-content:space-between}.brand b{display:inline-block;vertical-align:middle;width:28px;height:28px;font-size:19px;line-height:28px;margin:0 9px 0 0}.brand span{display:none}nav{margin:0;flex-direction:row;gap:4px}nav a{font-size:11px;padding:7px 10px}header:after{display:none}.wrap{margin:0;padding:0 24px}footer{margin:0;padding:22px 24px}.hero{padding-top:25px}h1{font-size:34px}}
 @media(max-width:620px){header{padding:16px;flex-wrap:wrap;gap:12px}nav{width:100%;justify-content:space-between}nav a{flex:1;text-align:center}.wrap{padding:0 16px}.hero{grid-template-columns:1fr;gap:14px}.hero>div:first-child{padding:24px}.edition{padding:22px}.stats{margin-top:15px}.edition strong{font-size:30px}h1{font-size:31px}.ticker{gap:10px 16px}.ticker span:last-child{margin-left:0!important;width:100%}#cards,.aside{grid-template-columns:1fr}.method{grid-column:auto}.card{padding:22px}.card h3{font-size:20px}.content{padding-top:24px}.foot{font-size:10px}footer{flex-direction:column;gap:5px}.sectionline h2 span{display:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
-</style></head><body><header><a href="#" class="brand"><b>◈</b>AI OBSERVER <span style="color:#777;font-weight:400">/ 智讯</span></a><nav><a href="#brief">资讯精选</a><a href="#channels">来源渠道</a><a href="#method">核验原则</a></nav></header><main class="wrap"><section class="hero"><div><div class="eyebrow">SIGNAL OVER NOISE / AI INTELLIGENCE BRIEF</div><h1>看见 AI 进展。<br><span>让每一条信息有据可循。</span></h1><p class="intro">追踪全球人工智能的重要变化。从公开信源中提炼事实、补全背景，把值得关注的进展，浓缩成一份清晰的简报。</p></div><div class="edition"><div class="eyebrow">RESEARCH SNAPSHOT</div><strong>2026.10.23</strong><small>核验日期 · 北京时间 UTC+8</small><div class="stats"><div><b>07</b>精选资讯</div><div><b>06</b>覆盖机构</div><div><b>03</b>渠道缺口</div></div></div></section><div class="ticker"><span>本期观察 ↗</span><span>智能体应用</span><span>开发者工具</span><span>企业安全</span><span>AI × 科学</span><span style="margin-left:auto">报道窗口 10.15 — 10.22</span></div><div class="content"><section id="brief"><div class="sectionline"><h2>本期精选 <span style="color:#777;font-size:13px">/ The briefing</span></h2><span class="count" id="count">07 STORIES</span></div><div class="tools"><input id="search" type="search" placeholder="搜索机构、关键词或内容…" aria-label="搜索资讯"><select id="sort" aria-label="排序"><option value="new">最新发布优先</option><option value="old">最早发布优先</option></select></div><div class="filters" id="filters"></div><div id="cards"></div></section><aside class="aside"><div class="asidebox"><div class="number">“</div><h3>编辑观察</h3><p>本期样本显示，AI 的关注点正延伸至工作流、工具调用与企业治理。产品公告中的可用范围和预览状态，与能力描述同样值得关注。</p><p>以上为编辑归纳，不代表行业统计结论。</p></div><div class="asidebox" id="channels"><h3>信源覆盖 / SOURCES</h3><div id="channelRows"></div><p>机构与分发渠道分开统计。知乎、微博、微信公众号已检索，本轮未获得可可靠引用的原文，不计入已核验资讯。</p></div><div class="method" id="method"><strong>少一点噪声，多一点证据。</strong><p>01 / 优先读取官方原文<br>02 / 核对发布日期与可用状态<br>03 / 保留事实边界与来源链接<br>04 / 不将厂商自测当成独立结论</p><p>“原文核验”表示已核对来源所述事实，不代表独立复现实验或全面验证产品效果。</p></div><div class="asidebox" style="margin-top:28px"><h3>关于此预览</h3><p>当前为静态编辑版，支持搜索、机构筛选和时间排序；未接入自动抓取、后台调度或实时更新。日期采用来源标注的发布日期，未强行转换未注明时区的时间。</p></div></aside></div></main><footer><span>◈ AI OBSERVER / 智讯 · 公开信息研究简报</span><span>来源可追溯 · 摘要经编辑整理 · 2026</span></footer><script>
+</style></head><body><header><a href="#" class="brand"><b>◈</b>AI OBSERVER <span style="color:#777;font-weight:400">/ 智讯</span></a><nav><a href="#brief">资讯精选</a><a href="#channels">来源渠道</a><a href="#method">核验原则</a></nav></header><main class="wrap"><section class="hero"><div><div class="eyebrow">SIGNAL OVER NOISE / AI INTELLIGENCE BRIEF</div><h1>看见 AI 进展。<br><span>让每一条信息有据可循。</span></h1><p class="intro">追踪全球人工智能的重要变化。从公开信源中提炼事实、补全背景，把值得关注的进展，浓缩成一份清晰的简报。</p></div><div class="edition"><div class="eyebrow">RESEARCH SNAPSHOT</div><strong>2026.10.24</strong><small>核验日期 · 北京时间 UTC+8</small><div class="stats"><div><b>07</b>精选资讯</div><div><b>06</b>覆盖机构</div><div><b>03</b>渠道缺口</div></div></div></section><div class="ticker"><span>本期观察 ↗</span><span>智能体协作</span><span>开源生态</span><span>训练安全</span><span>AI × 科学</span><span style="margin-left:auto">发布窗口 10.21 — 10.23</span></div><div class="content"><section id="brief"><div class="sectionline"><h2>本期精选 <span style="color:#777;font-size:13px">/ The briefing</span></h2><span class="count" id="count">07 STORIES</span></div><div class="tools"><input id="search" type="search" placeholder="搜索机构、关键词或内容…" aria-label="搜索资讯"><select id="sort" aria-label="排序"><option value="new">最新发布优先</option><option value="old">最早发布优先</option></select></div><div class="filters" id="filters"></div><div id="cards"></div></section><aside class="aside"><div class="asidebox"><div class="number">“</div><h3>编辑观察</h3><p>本期重点是训练安全、专家智能体协作与科研合作。7 条中有 1 条为上一期合作消息的重新核验；能力介绍、活动回顾和未来预告均保留各自状态，不当作新产品发布。</p><p>以上为编辑归纳，不代表行业统计结论。</p></div><div class="asidebox" id="channels"><h3>信源覆盖 / SOURCES</h3><div id="channelRows"></div><p>机构与分发渠道分开统计。知乎线索原文未能读取，微博与公众号检索未取得可核验原文，本期均未采纳；不代表这些渠道没有相关消息。</p></div><div class="method" id="method"><strong>少一点噪声，多一点证据。</strong><p>01 / 优先读取官方原文<br>02 / 核对发布日期与可用状态<br>03 / 保留事实边界与来源链接<br>04 / 不将厂商自测当成独立结论</p><p>“原文核验”表示已核对来源所述事实，不代表独立复现实验或全面验证产品效果。</p></div><div class="asidebox" style="margin-top:28px"><h3>关于本期简报</h3><p>当前为静态编辑版，支持搜索、机构筛选和时间排序；未接入自动抓取、后台调度或实时更新。日期采用来源标注的发布日期，未强行转换未注明时区的时间。</p></div></aside></div></main><footer><span>◈ AI OBSERVER / 智讯 · 公开信息研究简报</span><span>来源可追溯 · 摘要经编辑整理 · 2026</span></footer><script>
 const news=[
-{org:'OpenAI',date:'2026-10-22',type:'开发者工具',title:'Decisions API 正式开放：聚焦工作流中的小决策',bg:'应用与智能体需要频繁执行分类、路由与下一步选择，延迟和成本会随调用次数累积。',text:'OpenAI 宣布 Decisions API 正式可用，基于 GPT-6 Luna，面向答案范围明确的决策任务，并加入 GPT-Live 原生集成和提示缓存等能力。',source:'OpenAI 官方博客',url:'https://openai.com/index/decisions-api/',check:'原文明确标注 10 月 22 日及正式可用状态。性能提升为厂商披露，本摘要未将其视为独立实测。'},
-{org:'Anthropic',date:'2026-10-21',type:'产品预览',title:'Claude Duet 开放研究预览，探索主动式代理',bg:'AI 助手正尝试从被动响应，延伸到主动关注任务和工作进展。',text:'Anthropic 发布说明确认，Claude Duet 研究预览向 Pro 和 Max 计划用户开放。预览资格与具体可用范围应以产品说明为准。',source:'Claude 官方发布说明',url:'https://support.claude.com/en/articles/12138966-release-notes',check:'官方发布说明确认日期、名称及研究预览状态；Stripe 同日公告进一步确认合作及预览推出。未将研究预览写作全面上线。',second:'https://stripe.com/newsroom/news/anthropic-and-stripe'},
-{org:'Google',date:'2026-10-21',type:'AI × 医疗研究',title:'Google 分享 AI 辅助超声在孕产照护中的研究进展',bg:'产前超声服务的可及性与一线医护的工具支持，是医疗 AI 的具体应用方向。',text:'Google Research 发布文章，介绍以 AI 辅助超声支持一线孕产照护的工作。本条收录研究进展，不推断其已在全球部署或获得普遍监管批准。',source:'Google Research 官方博客',url:'https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/',check:'已核对官方研究博客条目、日期与主题；研究进展不能等同于通用临床有效性结论。'},
-{org:'百度',date:'2026-10-21',type:'智能体生态',title:'北京日报智源 GEO 接入百度搭子生态',bg:'北京日报社此前推出智源 GEO，探索面向大模型信息环境的传播能力。',text:'北京日报客户端披露，智源 GEO 接入百度搭子，并提供页面诊断、标题生成等六项 GEO 相关技能，将媒体专业能力嵌入通用智能体。',source:'北京日报客户端 · 京报网',url:'https://news.bjd.com.cn/2026/10/21/12003423.shtml',check:'合作参与方北京日报社的公开报道确认接入事实。百度官网产品页用于核对平台背景；未采纳报道中的用户增速和“首次”等宣传表述。',second:'https://cloud.baidu.com/product-s/dumate_developement_platform.html'},
-{org:'腾讯',date:'2026-10-20',type:'活动预告',title:'腾讯预告数字生态大会，聚焦 AI 与数据基础设施',bg:'企业智能体落地需要可调用的数据平台和基础设施支持。',text:'腾讯云大数据在开发者社区预告，腾讯全球数字生态大会计划于 10 月 29—30 日在深圳举行。本条为未来活动安排，不代表相关能力已发布。',source:'腾讯云开发者社区 · 腾讯云大数据',url:'https://developer.cloud.tencent.com/article/2765237?policyId=1003',check:'原文确认发布日期与计划会期。仅收录预告，不将议题包装为已落地产品。'},
-{org:'Microsoft',date:'2026-10-19',type:'企业安全',title:'Microsoft 讨论企业中的智能体内部风险',bg:'AI 智能体接入企业资源后，组织需要重新审视内部访问与安全治理。',text:'Microsoft 官方博客发布《Securing the agentic insider》，讨论智能体进入企业环境带来的安全议题。本条属于官方观点与治理讨论。',source:'Microsoft 官方博客',url:'https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/',check:'已核对官方文章与发布日期；不将安全观点文章误写为独立产品发布。'},
-{org:'Microsoft',date:'2026-10-15',type:'平台更新',title:'Foundry 月度更新：Routines、Tool Search 等正式可用',bg:'企业开发者需要定时运行智能体、按需发现工具，并追踪其执行行为。',text:'Microsoft 的九月更新汇总于 10 月 15 日发布：Routines、Tool Search 与 A2A 已正式可用；Insights 进入公开预览。',source:'Microsoft Foundry 官方博客',url:'https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026/',check:'区分文章发布日与其回顾的九月更新；分别保留正式可用和公开预览状态。'}];
-let selected='全部';const orgs=['全部','OpenAI','Google','Microsoft','Anthropic','百度','腾讯'];const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');function render(){const q=document.querySelector('#search').value.trim().toLowerCase();let items=news.filter(n=>(selected==='全部'||n.org===selected)&&Object.values(n).join(' ').toLowerCase().includes(q));items.sort((a,b)=>document.querySelector('#sort').value==='new'?b.date.localeCompare(a.date):a.date.localeCompare(b.date));document.querySelector('#count').textContent=String(items.length).padStart(2,'0')+' STORIES';document.querySelector('#cards').innerHTML=items.map((n,i)=>`<article class="card"><div class="meta"><span class="tag">${n.org}</span><time datetime="${n.date}">${n.date.replaceAll('-','.')}</time><span>${n.type}</span><span style="margin-left:auto">${String(i+1).padStart(2,'0')} / 原文核验</span></div><h3>${n.title}</h3><p><span class="label">背景</span>${n.bg}</p><p><span class="label">内容</span>${n.text}</p><details><summary>查看核验记录</summary><p>${n.check}</p>${n.second?`<a class="source" href="${n.second}" target="_blank" rel="noopener noreferrer">辅助来源 ↗</a>`:''}<p>核验日期：2026-10-23</p></details><div class="foot"><span>来源渠道 · ${n.source}</span><a class="source" href="${n.url}" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a></div></article>`).join('')||'<div class="empty">未找到匹配资讯，请调整关键词或机构筛选。</div>';document.querySelectorAll('#filters button').forEach(b=>{b.classList.toggle('active',b.textContent===selected);b.setAttribute('aria-pressed',b.textContent===selected)})}document.querySelector('#filters').innerHTML=orgs.map(o=>`<button type="button">${o}</button>`).join('');document.querySelector('#filters').addEventListener('click',e=>{if(e.target.tagName==='BUTTON'){selected=e.target.textContent;render()}});document.querySelector('#search').addEventListener('input',render);document.querySelector('#sort').addEventListener('change',render);document.querySelector('#channelRows').innerHTML=[['官方博客 / 帮助中心','5 条'],['合作方自述 / 京报网','1 条'],['腾讯云开发者社区','1 条'],['知乎','未采纳'],['微博','未采纳'],['微信公众号','未采纳']].map(([a,b])=>`<div class="channel"><span>${a}</span><span>${b}</span></div>`).join('');render();
+  {
+    "org": "OpenAI",
+    "date": "2026-10-23",
+    "eventDate": "2026-10-23（公告）；2026-10-01（文中所述恢复训练）",
+    "type": "训练安全",
+    "title": "OpenAI 披露前沿模型训练环境的隔离与红队措施",
+    "bg": "模型能力提升使训练与评估环境的访问边界更难维护，OpenAI 回顾其研究环境的加固工作。",
+    "text": "官方称已采用离线交互环境、多层隔离和大规模红队测试，并披露在强化控制后于 10 月 1 日恢复前沿模型强化学习训练及内部推理。文章发布于 10 月 23 日，不代表当天发生新的安全事故。",
+    "source": "OpenAI 官方博客",
+    "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+    "check": "已读取官方正文，确认公告日与恢复训练日不同。本条是单一官方来源的安全措施自述，未独立审计效果；原文明确研究训练环境与已发布产品环境不同。"
+  },
+  {
+    "org": "Google",
+    "date": "2026-10-23",
+    "eventDate": "2026-10-24（美国太平洋时间，活动预告）",
+    "type": "开源生态 / 预告",
+    "title": "Google 开源周报聚焦 AI 社区与 Gemma 硬件实践",
+    "bg": "开源 AI 的发展涉及模型使用、社区维护，以及在本地硬件上构建应用。",
+    "text": "Google 10 月 23 日开源周报介绍 Open Source AI Week，并预告 10 月 24 日在加州 Hillsborough 举行的 Gemma 硬件黑客松。活动页面要求项目使用 Gemma 并完全在设备端运行；本条不是新模型发布公告。",
+    "source": "Google Open Source 官方博客",
+    "url": "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-23.html",
+    "second": "https://luma.com/6ccl0jw5",
+    "check": "已读取官方周报与主办活动页，地点和活动日期一致。两处结束时间不同，本摘要不收录具体结束时刻。活动日期保留太平洋时间，不把当地 10 月 24 日误标为北京时间同一天。"
+  },
+  {
+    "org": "Microsoft",
+    "date": "2026-10-23",
+    "eventDate": "2026-10-21（伦敦活动）；10 月 23 日发布回顾",
+    "type": "企业 AI / 活动回顾",
+    "title": "Microsoft 伦敦活动回顾：智能体落地强调信任与人类控制",
+    "bg": "智能体进入多步骤企业工作流后，信息访问权限、安全治理和员工技能成为采用条件。",
+    "text": "Microsoft 英国官方报道回顾 10 月 21 日的 Frontier Tour，强调保留人的控制权、保护组织信息，以及围绕智能体建立零信任架构。本条为活动回顾和厂商观点，不视为 10 月 23 日的新产品发布。",
+    "source": "Microsoft UK Stories 官方网站",
+    "url": "https://ukstories.microsoft.com/features/microsoft-frontier-tour-london-building-trust-in-the-agentic-ai-era/",
+    "check": "已读取正文并区分报道日与活动日。单一官方来源；未把文中企业案例或自报节省时间写成独立效果验证。"
+  },
+  {
+    "org": "腾讯",
+    "date": "2026-10-23",
+    "eventDate": "2026-10-23（产品能力介绍文章发布）",
+    "type": "智能体协作",
+    "title": "腾讯介绍 WorkBuddy 专家智能体的组队协作方式",
+    "bg": "研究、文案、数据核对等工作需要不同技能，通用助手的单次回答难以覆盖整条流程。",
+    "text": "腾讯官方文章介绍，WorkBuddy 可围绕任务组织专家智能体团队，由负责人拆解工作、成员分工并共享信息，最终整合交付文件。文章还介绍内置的任务专用角色；这是能力说明，不推断功能在当天首次上线。",
+    "source": "腾讯官网 · 腾讯视角",
+    "url": "https://www.tencent.com/zh-cn/your-new-ai-colleague-brought-a-few-friends/",
+    "check": "已核对腾讯官网日期及正文。单一官方来源，未独立测试协作质量；保留文章关于仍需用户审阅的边界，不将角色称为真实专业人士。"
+  },
+  {
+    "org": "Anthropic",
+    "date": "2026-10-22",
+    "eventDate": "2026-10-22（征集公告）",
+    "type": "AI × 生命科学",
+    "title": "Anthropic 面向生命科学研究团队征集合作项目",
+    "bg": "生命科学研究需要把模型能力与具体科研问题、数据和可验证产出结合。",
+    "text": "Anthropic 邀请学术机构、非营利组织及政府实验室的研究团队申请合作，计划在 8–12 周内与其研究人员开展项目。公告提出共同发布成果、开源配套数据和代码的目标，并要求申请材料仅含公开信息。",
+    "source": "Anthropic 官方公告",
+    "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+    "check": "已读取公告，确认发布日期与计划合作周期。单一官方来源；征集计划不等于已取得科研成果。公告称申请约开放 14 天，本页不推算精确截止时间或承诺入选。"
+  },
+  {
+    "org": "OpenAI",
+    "date": "2026-10-22",
+    "eventDate": "2026-10-22（开始全公司推广的公告）",
+    "type": "企业应用",
+    "title": "Uber 将 ChatGPT Work 从试点推广至全公司",
+    "bg": "Uber 此前进行员工试点，现将智能体工具的可用范围扩展至更多职能团队。",
+    "text": "OpenAI 公告称，Uber 开始把 ChatGPT Work 从约 1,000 名员工的试点扩展至逾 30,000 名员工，并结合获批应用集成、内部技能库和员工培训支持使用。推广范围不代表所有员工已实际采用或已证实生产力收益。",
+    "source": "OpenAI 官方博客",
+    "url": "https://openai.com/index/uber-chatgpt-work-rollout/",
+    "check": "已读取合作方 OpenAI 的公告，确认 10 月 22 日日期、试点和计划覆盖人数。当前为合作方自述，未找到独立采用率或收益验证，不将访问资格写成活跃用户数。"
+  },
+  {
+    "org": "百度",
+    "date": "2026-10-21",
+    "eventDate": "2026-10-21 14:32（来源发布时间）",
+    "type": "生态合作 / 重新核验",
+    "title": "北京日报智源 GEO 接入百度搭子生态",
+    "bg": "北京日报社将其传播相关能力与通用智能体结合，尝试把专门技能嵌入任务流程。",
+    "text": "合作参与方北京日报客户端披露，智源 GEO 于 10 月 21 日接入百度搭子，并提供页面诊断、标题生成等六项相关技能。本条在上一期已收录，本期重新读取原文核验，事件日期保持为 10 月 21 日。",
+    "source": "北京日报客户端 · 京报网",
+    "url": "https://news.bjd.com.cn/2026/10/21/12003423.shtml",
+    "second": "https://cloud.baidu.com/product-s/dumate_developement_platform.html",
+    "check": "合作参与方自述支持接入事实；百度产品页仅用于核对平台背景，不能当作独立确认该合作。已重新读取两处原文，未采纳用户增速、行业首次等宣传性结论。"
+  }
+];
+let selected='全部';const orgs=['全部','OpenAI','Google','Microsoft','Anthropic','百度','腾讯'];const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');function render(){const q=document.querySelector('#search').value.trim().toLowerCase();let items=news.filter(n=>(selected==='全部'||n.org===selected)&&Object.values(n).join(' ').toLowerCase().includes(q));items.sort((a,b)=>document.querySelector('#sort').value==='new'?b.date.localeCompare(a.date):a.date.localeCompare(b.date));document.querySelector('#count').textContent=String(items.length).padStart(2,'0')+' STORIES';document.querySelector('#cards').innerHTML=items.map((n,i)=>`<article class="card"><div class="meta"><span class="tag">${n.org}</span><time datetime="${n.date}">${n.date.replaceAll('-','.')}</time><span>${n.type}</span><span style="margin-left:auto">${String(i+1).padStart(2,'0')} / 原文核验</span></div><h3>${n.title}</h3><p><span class="label">事件 / 时间</span>${n.eventDate}</p><p><span class="label">背景</span>${n.bg}</p><p><span class="label">内容</span>${n.text}</p><details><summary>查看核验记录</summary><p>${n.check}</p>${n.second?`<a class="source" href="${n.second}" target="_blank" rel="noopener noreferrer">辅助来源 ↗</a>`:''}<p>核验日期：2026-10-24</p></details><div class="foot"><span>来源渠道 · ${n.source}</span><a class="source" href="${n.url}" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a></div></article>`).join('')||'<div class="empty">未找到匹配资讯，请调整关键词或机构筛选。</div>';document.querySelectorAll('#filters button').forEach(b=>{b.classList.toggle('active',b.textContent===selected);b.setAttribute('aria-pressed',b.textContent===selected)})}document.querySelector('#filters').innerHTML=orgs.map(o=>`<button type="button">${o}</button>`).join('');document.querySelector('#filters').addEventListener('click',e=>{if(e.target.tagName==='BUTTON'){selected=e.target.textContent;render()}});document.querySelector('#search').addEventListener('input',render);document.querySelector('#sort').addEventListener('change',render);document.querySelector('#channelRows').innerHTML=[['机构官方博客 / 官网','6 条'],['合作方自述 / 京报网','1 条'],['知乎','未采纳'],['微博','未采纳'],['微信公众号','未采纳']].map(([a,b])=>`<div class="channel"><span>${a}</span><span>${b}</span></div>`).join('');render();
 </script></body></html>
